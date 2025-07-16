@@ -1,0 +1,74 @@
+[
+  {
+    "id": 402000834993,
+    "name": "New",
+    "position": 1,
+    "partial": true,
+    "forecast_type": "Open",
+    "lifecycle_stage_id": 403015247146
+  },
+  {
+    "id": 402000834994,
+    "name": "Contacted",
+    "position": 2,
+    "partial": true,
+    "forecast_type": "Open",
+    "lifecycle_stage_id": 403015247146
+  },
+  {
+    "id": 402000834995,
+    "name": "Interested",
+    "position": 3,
+    "partial": true,
+    "forecast_type": "Open",
+    "lifecycle_stage_id": 403015247146
+  },
+  {
+    "id": 402000834996,
+    "name": "Unqualified",
+    "position": 4,
+    "partial": true,
+    "forecast_type": "Closed Lost",
+    "lifecycle_stage_id": 403015247146
+  },
+  {
+    "id": 402000834997,
+    "name": "Qualified",
+    "position": 5,
+    "partial": true,
+    "forecast_type": "Open",
+    "lifecycle_stage_id": 403015247147
+  },
+  {
+    "id": 402000834998,
+    "name": "Negotiation",
+    "position": 6,
+    "partial": true,
+    "forecast_type": "Open",
+    "lifecycle_stage_id": 403015247147
+  },
+  {
+    "id": 402000834999,
+    "name": "Lost",
+    "position": 7,
+    "partial": true,
+    "forecast_type": "Closed Lost",
+    "lifecycle_stage_id": 403015247147
+  },
+  {
+    "id": 402000835000,
+    "name": "Won",
+    "position": 8,
+    "partial": true,
+    "forecast_type": "Closed Won",
+    "lifecycle_stage_id": 403015247148
+  },
+  {
+    "id": 402000835001,
+    "name": "Churned",
+    "position": 9,
+    "partial": true,
+    "forecast_type": "Closed Lost",
+    "lifecycle_stage_id": 403015247148
+  }
+]

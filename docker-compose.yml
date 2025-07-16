@@ -1,0 +1,29 @@
+version: '3'
+services:
+  tooljet:
+    image: tooljet/tooljet-ce:latest
+    ports:
+      - '8080:3000'
+    environment:
+      - TOOLJET_HOST=http://localhost:8080
+      - PG_HOST=postgres
+      - PG_DB=tooljet_prod
+      - PG_USER=postgres
+      - PG_PASS=tooljet
+      - FRESHWORKS_DOMAIN=${FRESHWORKS_DOMAIN}
+      - FRESHWORKS_API_KEY=${FRESHWORKS_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres:13
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: tooljet_prod
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: tooljet
+volumes:
+  postgres_data: 

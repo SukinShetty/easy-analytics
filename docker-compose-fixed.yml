@@ -1,0 +1,55 @@
+version: '3.8'
+services:
+  tooljet:
+    image: tooljet/tooljet-ce:latest
+    container_name: tooljet
+    restart: unless-stopped
+    ports:
+      - '3000:3000'  # Changed to avoid port conflicts
+    environment:
+      - TOOLJET_HOST=http://localhost:3000
+      - NODE_ENV=development  # Changed for easier debugging
+      - PG_HOST=postgres
+      - PG_DB=tooljet_prod
+      - PG_USER=postgres
+      - PG_PASS=tooljet
+      - SECRET_KEY_BASE=test_secret_key_base_for_development_64_chars_minimum_here_ok
+      - LOCKBOX_MASTER_KEY=test_lockbox_master_key_development
+      - FRESHWORKS_DOMAIN=${FRESHWORKS_DOMAIN}
+      - FRESHWORKS_API_KEY=${FRESHWORKS_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LOG_LEVEL=info
+      - ENABLE_TOOLJET_DB=true
+      - TOOLJET_DB_HOST=postgres
+      - TOOLJET_DB_USER=postgres
+      - TOOLJET_DB_PASS=tooljet
+      - TOOLJET_DB_NAME=tooljet_db
+      - TOOLJET_DB_PORT=5432
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - tooljet_data:/var/lib/tooljet/data
+  
+  postgres:
+    image: postgres:13-alpine
+    container_name: postgres
+    restart: unless-stopped
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db_schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    environment:
+      POSTGRES_DB: tooljet_prod
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: tooljet
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+  tooljet_data: 

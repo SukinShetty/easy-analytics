@@ -1,0 +1,22 @@
+id,name,model_class_name,user_id,is_default,updated_at,user_name,current_user_permissions
+402005390278,My Contacts,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390279,My Territory Contacts,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390280,New Contacts,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390281,All Contacts,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390282,Recently Modified,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390283,Recently Imported,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390284,Never Contacted,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390285,Needs Follow-up,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390286,Active,Contact,0,False,2023-11-27T20:01:33+05:30,,"['read_edit_only', 'can_delete_only']"
+402005390287,Inactive,Contact,0,False,2023-11-27T20:01:33+05:30,,"['read_edit_only', 'can_delete_only']"
+402005390288,Recycle Bin,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390289,Bounced contacts,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390291,Untouched 5-star contacts,Contact,0,True,2023-11-27T20:01:33+05:30,,[]
+402005390292,Slipping away,Contact,0,False,2023-11-27T20:01:33+05:30,,"['read_edit_only', 'can_delete_only']"
+402006009183,My Product Qualified Leads,Contact,0,True,2023-12-29T14:28:03+05:30,,[]
+402006496298,Today's contacts,Contact,402000224530,False,2024-01-29T20:32:41+05:30,Jagan S,"['read_edit_share_only', 'can_delete_only']"
+402012309335,Kroolo Outreach May 2025,Contact,402000371068,False,2025-05-08T17:37:41+05:30,Sowmya Govindan,['read_edit_only']
+402012372176,Kroolo Outreach ,Contact,402000371068,False,2025-05-23T15:22:41+05:30,Sowmya Govindan,['read_edit_only']
+402012788504,Fsales May 2025,Contact,402000371068,False,2025-05-22T14:37:48+05:30,Sowmya Govindan,['read_edit_only']
+402012789345,FD May 2025,Contact,402000371068,False,2025-05-22T14:44:49+05:30,Sowmya Govindan,['read_edit_only']
+402012960135,Freshsales New May2025,Contact,402000371068,False,2025-05-23T14:33:28+05:30,Sowmya Govindan,['read_only']

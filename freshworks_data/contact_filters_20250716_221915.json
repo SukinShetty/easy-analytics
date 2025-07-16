@@ -1,0 +1,237 @@
+{
+  "filters": [
+    {
+      "id": 402005390278,
+      "name": "My Contacts",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390279,
+      "name": "My Territory Contacts",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390280,
+      "name": "New Contacts",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390281,
+      "name": "All Contacts",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390282,
+      "name": "Recently Modified",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390283,
+      "name": "Recently Imported",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390284,
+      "name": "Never Contacted",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390285,
+      "name": "Needs Follow-up",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390286,
+      "name": "Active",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": false,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": [
+        "read_edit_only",
+        "can_delete_only"
+      ]
+    },
+    {
+      "id": 402005390287,
+      "name": "Inactive",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": false,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": [
+        "read_edit_only",
+        "can_delete_only"
+      ]
+    },
+    {
+      "id": 402005390288,
+      "name": "Recycle Bin",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390289,
+      "name": "Bounced contacts",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390291,
+      "name": "Untouched 5-star contacts",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402005390292,
+      "name": "Slipping away",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": false,
+      "updated_at": "2023-11-27T20:01:33+05:30",
+      "user_name": null,
+      "current_user_permissions": [
+        "read_edit_only",
+        "can_delete_only"
+      ]
+    },
+    {
+      "id": 402006009183,
+      "name": "My Product Qualified Leads",
+      "model_class_name": "Contact",
+      "user_id": 0,
+      "is_default": true,
+      "updated_at": "2023-12-29T14:28:03+05:30",
+      "user_name": null,
+      "current_user_permissions": []
+    },
+    {
+      "id": 402006496298,
+      "name": "Today's contacts",
+      "model_class_name": "Contact",
+      "user_id": 402000224530,
+      "is_default": false,
+      "updated_at": "2024-01-29T20:32:41+05:30",
+      "user_name": "Jagan S",
+      "current_user_permissions": [
+        "read_edit_share_only",
+        "can_delete_only"
+      ]
+    },
+    {
+      "id": 402012309335,
+      "name": "Kroolo Outreach May 2025",
+      "model_class_name": "Contact",
+      "user_id": 402000371068,
+      "is_default": false,
+      "updated_at": "2025-05-08T17:37:41+05:30",
+      "user_name": "Sowmya Govindan",
+      "current_user_permissions": [
+        "read_edit_only"
+      ]
+    },
+    {
+      "id": 402012372176,
+      "name": "Kroolo Outreach ",
+      "model_class_name": "Contact",
+      "user_id": 402000371068,
+      "is_default": false,
+      "updated_at": "2025-05-23T15:22:41+05:30",
+      "user_name": "Sowmya Govindan",
+      "current_user_permissions": [
+        "read_edit_only"
+      ]
+    },
+    {
+      "id": 402012788504,
+      "name": "Fsales May 2025",
+      "model_class_name": "Contact",
+      "user_id": 402000371068,
+      "is_default": false,
+      "updated_at": "2025-05-22T14:37:48+05:30",
+      "user_name": "Sowmya Govindan",
+      "current_user_permissions": [
+        "read_edit_only"
+      ]
+    },
+    {
+      "id": 402012789345,
+      "name": "FD May 2025",
+      "model_class_name": "Contact",
+      "user_id": 402000371068,
+      "is_default": false,
+      "updated_at": "2025-05-22T14:44:49+05:30",
+      "user_name": "Sowmya Govindan",
+      "current_user_permissions": [
+        "read_edit_only"
+      ]
+    },
+    {
+      "id": 402012960135,
+      "name": "Freshsales New May2025",
+      "model_class_name": "Contact",
+      "user_id": 402000371068,
+      "is_default": false,
+      "updated_at": "2025-05-23T14:33:28+05:30",
+      "user_name": "Sowmya Govindan",
+      "current_user_permissions": [
+        "read_only"
+      ]
+    }
+  ],
+  "meta": {}
+}

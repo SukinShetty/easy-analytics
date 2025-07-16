@@ -1,0 +1,37 @@
+[
+  {
+    "name": "fetchDeals",
+    "type": "restapi",
+    "method": "GET",
+    "url": "https://{{FRESHWORKS_DOMAIN}}/api/deals?page={{page}}",
+    "headers": {"Authorization": "Token token={{FRESHWORKS_API_KEY}}"}
+  },
+  {
+    "name": "fetchContacts",
+    "type": "restapi",
+    "method": "GET",
+    "url": "https://{{FRESHWORKS_DOMAIN}}/api/contacts?page={{page}}",
+    "headers": {"Authorization": "Token token={{FRESHWORKS_API_KEY}}"}
+  },
+  {
+    "name": "fetchAccounts",
+    "type": "restapi",
+    "method": "GET",
+    "url": "https://{{FRESHWORKS_DOMAIN}}/api/accounts?page={{page}}",
+    "headers": {"Authorization": "Token token={{FRESHWORKS_API_KEY}}"}
+  },
+  {
+    "name": "fetchProducts",
+    "type": "restapi",
+    "method": "GET",
+    "url": "https://{{FRESHWORKS_DOMAIN}}/api/products?page={{page}}",
+    "headers": {"Authorization": "Token token={{FRESHWORKS_API_KEY}}"}
+  },
+  {
+    "name": "fetchActivities",
+    "type": "restapi",
+    "method": "GET",
+    "url": "https://{{FRESHWORKS_DOMAIN}}/api/activities?page={{page}}",
+    "headers": {"Authorization": "Token token={{FRESHWORKS_API_KEY}}"}
+  }
+] 

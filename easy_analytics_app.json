@@ -1,0 +1,18 @@
+{
+  "name": "Easy Analytics Chatbot",
+  "components": [
+    {"id": "queryInput", "type": "textInput", "properties": {"placeholder": "Ask about CRM data"}},
+    {"id": "submitButton", "type": "button", "properties": {"text": "Send"}, "events": [{"event": "onClick", "queryId": "handleQuery"}]},
+    {"id": "chatHistory", "type": "textArea", "properties": {"value": ""}}
+  ],
+  "queries": [
+    {"id": "generateSQL", "type": "openai", "properties": {"model": "gpt-3.5-turbo", "prompt": "{{prompt}}"}},
+    {"id": "executeSQL", "type": "tooljetdb", "properties": {"query": "{{sql}}"}},
+    {"id": "summarizeResults", "type": "openai", "properties": {"model": "gpt-3.5-turbo", "prompt": "{{prompt}}"}},
+    {"id": "handleQuery", "type": "javascript", "properties": {"code": "// Paste from chatbot_handler.js"}}
+  ],
+  "dataSources": [
+    {"type": "openai", "options": {"apiKey": "{{OPENAI_API_KEY}}"}},
+    {"type": "tooljetdb"}
+  ]
+} 

@@ -1,0 +1,10 @@
+id,name,position,partial,forecast_type,lifecycle_stage_id
+402000834993,New,1,True,Open,403015247146
+402000834994,Contacted,2,True,Open,403015247146
+402000834995,Interested,3,True,Open,403015247146
+402000834996,Unqualified,4,True,Closed Lost,403015247146
+402000834997,Qualified,5,True,Open,403015247147
+402000834998,Negotiation,6,True,Open,403015247147
+402000834999,Lost,7,True,Closed Lost,403015247147
+402000835000,Won,8,True,Closed Won,403015247148
+402000835001,Churned,9,True,Closed Lost,403015247148
